@@ -17,24 +17,65 @@ function App() {
     })();
   }, []);
 
+  // Table column, row and cells setup
+  const columns = useMemo(
+    () => [
+      {
+        // first group - Employee Picture & Name
+        Header: "Employee",
+        // First group columns
+        columns: [
+          {
+            Header: "Image",
+            accessor: "picture.large",
+            Cell: ({ cell: { value } }) => {
+              return (
+                <>
+                  {<img src={value} alt="profile thumbnail"/>}
+                </>
+              );
+            }          
+          },
+          {
+            Header: "First Name",
+            accessor: "name.first",
+          },
+          {
+            Header: "Last Name",
+            accessor: "name.last"
+          }
+        ]
+      },
+      {
+        // Second group - Employee Personal info
+        Header: "Employee Info.",
+        // Second group columns
+        columns: [
+          {
+            Header: "Phone",
+            accessor: "phone"
+          },
+          {
+            Header: "Email",
+            accessor: "email"
+          },
+          {
+            Header: "DOB",
+            accessor: "registered.age"
+          }
+        ]
+      }
+    ],
+    []
+  );
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Table columns={columns} data={data} />
     </div>
   );
 }
 
 export default App;
+
