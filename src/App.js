@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+import axios from "axios"
+import Table from "./Table";
+import Navbar from "./Nav";
 import './App.css';
 
 function App() {
