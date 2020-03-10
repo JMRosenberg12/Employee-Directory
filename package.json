@@ -10,7 +10,8 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
-    "react-table": "^7.0.0-rc.16"
+    "react-table": "^7.0.0-rc.16",
+    "webpack": "^4.41.5"
   },
   "scripts": {
     "start": "react-scripts start",
