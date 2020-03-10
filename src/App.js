@@ -4,6 +4,9 @@ import axios from "axios"
 import Table from "./Table";
 import Navbar from "./Nav";
 import './App.css';
+import {useState} from 'react';
+import {useEffect} from 'react';
+import {useMemo} from 'react';
 
 function App() {
   // data state to store the Randomeuser API data. State's initial value is an empty array
