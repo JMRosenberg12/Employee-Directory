@@ -7,3 +7,4 @@ Business Context: An employee or manager would benefit greatly from being able t
 
 Acceptance Criteria: Given a table of random users, when the user loads the page, a table of employees should render.
 The user should be able to: Sort the table by at least one category, and filter the users by at least one property.
+Deployed link: https://vast-river-84470.herokuapp.com/
