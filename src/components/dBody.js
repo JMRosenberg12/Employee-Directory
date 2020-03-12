@@ -18,6 +18,7 @@ function DBody({ users }) {
         users.map(({ login, name, picture, phone, email, dob }) => {
           return (
             <tr key={login.uuid}>
+              <th scope = "row">0</th>
               <td data-th="Image" className="align-middle">
                 <img
                   src={picture.large}

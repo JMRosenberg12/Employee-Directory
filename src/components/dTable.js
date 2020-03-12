@@ -15,6 +15,7 @@ function dTable({ headings, users, handleSort }) {
               return (
                 <th
                   className="col"
+                  scope="col"
                   key={name}
                   style={{ width }}
                   onClick={() => {
