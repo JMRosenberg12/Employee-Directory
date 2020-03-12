@@ -1,13 +1,13 @@
+  
 .header {
-    padding: 30px;
-    background-color: teal;
+    padding: 30px 0;
+    color: white;
+    background-color: darkgreen;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-h1 {
- font-size: 55px;
- 
-}
-
-.text-info {
-    text-decoration-color: white;
+.wrapper{
+    width: 100%;
 }
