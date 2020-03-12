@@ -1,5 +1,6 @@
 import React from "react";
-
+import "../src/styles/Nav.css";
+import "../src/styles/Header.css";
 function Navbar() {
   return (
     <nav>
