@@ -1,17 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./styles/Header.css";
 
-export default class Header extends Component {
-  render() {
+function Header() {
     return (
-      <div className="header">
-       <div className="text-info"><h1>Employee Directory</h1></div> 
-        <br></br><br></br>
-        <h2>Search Employees by Name, Email or Phone Number</h2>
-        <br></br>
-        <h3> Click on "Name" to Sort Order</h3>
-        
-      </div>
+        <div className="header">
+            <h1>Employee Directory</h1>
+        </div>
     )
-  }
 }
+
+export default Header;
