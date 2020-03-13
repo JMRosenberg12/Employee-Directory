@@ -5,9 +5,6 @@ import Navbar from "./Nav";
 import {useState} from 'react';
 import {useEffect} from 'react';
 import {useMemo} from 'react';
-import "./styles/Header.css";
-import "./styles/Nav.css";
-import "./styles/Wrapper.css";
 import './App.css';
 
 function App() {
