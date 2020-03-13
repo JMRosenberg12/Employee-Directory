@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import DTable from "./dTable";
 import Nav from "./NavBar";
 import Api from "../utils/Api";
-import "../styles/dArea.css";
+import "..src/styles/dArea.css";
 
 export default class DArea extends Component {
   state = {
