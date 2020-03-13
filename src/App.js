@@ -6,9 +6,9 @@ import './App.css';
 import {useState} from 'react';
 import {useEffect} from 'react';
 import {useMemo} from 'react';
-import "../src/styles/Header.css";
-import "../src/styles/Nav.css";
-import "../src/styles/Wrapper.css";
+import "./styles/Header.css";
+import "./styles/Nav.css";
+import "./styles/Wrapper.css";
 
 function App() {
   // data state to store the Randomeuser API data. State's initial value is an empty array
