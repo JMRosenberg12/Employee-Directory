@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import DTable from "./dTable";
 import Nav from "./Navbar";
 import Api from "../utils/Api";
-import "../styles/dArea.css";
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default class DArea extends Component {
