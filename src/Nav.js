@@ -4,7 +4,7 @@ import "./styles/Header.css";
 import 'bootstrap/dist/css/bootstrap.css'
 function Navbar() {
   return (
-    <nav className="bg-success text-white">
+    <nav className="">
        <h1> Employee Directory</h1>
        <p> Click on carrots to filter by heading or use the search box to narrow your result.</p>
     </nav>

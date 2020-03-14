@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 
 
+
 function App() {
   // data state to store the Randomeuser API data. State's initial value is an empty array
   const [data, setData] = useState([]);
@@ -21,6 +22,8 @@ function App() {
       console.log(result.data)
     })();
   }, []);
+
+
 
   // Table column, row and cells setup
   const columns = useMemo(
@@ -78,9 +81,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Table columns={columns} data={data} />
-    </div>
-  );
-}
+        </div>
+      )
+    }
+  
+
 
 
 export default App;
