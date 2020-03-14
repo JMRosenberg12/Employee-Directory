@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import DTable from "./dTable";
-import Nav from "./NavBar";
+import Nav from "./Navbar";
 import Api from "../utils/Api";
 import "../styles/dArea.css";
 

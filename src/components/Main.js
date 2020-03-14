@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import DArea from "./dArea";
+import Main from "./Main";
 // import "../styles/Main.css";
 
 export default class Main extends Component {
