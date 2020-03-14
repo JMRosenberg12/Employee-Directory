@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/dBody.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
 function DBody({ users }) {
   function formatDate(date) {
