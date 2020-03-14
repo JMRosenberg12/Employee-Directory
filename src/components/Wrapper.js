@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 function Wrapper({ children }) {
   return (
-      <div className="Wrapper">
+      <div className="wrapper">
         { children }
       </div>
   );
