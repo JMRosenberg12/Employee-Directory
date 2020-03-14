@@ -1,6 +1,6 @@
 import React from "react";
 import Search from "./Search";
-import "../styles/Nav.css";
+
 
 function NavBar({ handleSearchChange }) {
   return (
