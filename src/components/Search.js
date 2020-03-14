@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Search.css";
+import 'bootstrap/dist/css/bootstrap.css'
 
 function Search({ handleSearchChange }) {
   return (

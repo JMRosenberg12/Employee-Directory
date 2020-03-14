@@ -2,6 +2,7 @@ import React from "react";
 import DBody from "./dBody";
 import "../styles/dTable.css";
 
+
 function dTable({ headings, users, handleSort }) {
   return (
     <div className="datatable mt-5">

@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { useTable, useFilters, useSortBy } from "react-table";
+import 'bootstrap/dist/css/bootstrap.css'
 
 export default function Table({ columns, data }) {
   // Step 1: Create a state const
@@ -40,7 +41,7 @@ export default function Table({ columns, data }) {
       onChange={handleFilterChange}
       placeholder={"Search name"}
     />
-    <table {...getTableProps()}>
+    <table {...getTableProps()} className="table table-striped">
       <thead>
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>

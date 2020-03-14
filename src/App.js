@@ -6,6 +6,9 @@ import {useState} from 'react';
 import {useEffect} from 'react';
 import {useMemo} from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css'
+
+
 
 function App() {
   // data state to store the Randomeuser API data. State's initial value is an empty array
@@ -68,7 +71,7 @@ function App() {
         ]
       }
     ],
-    []
+   []
   );
 
   return (
@@ -78,6 +81,7 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
 
